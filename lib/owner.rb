@@ -1,7 +1,7 @@
 class Owner
   # attr_accessor :name
-  attr_reader :species, :name
-  attr_a
+  attr_reader :species
+  attr_accessor :name
   @@all =[]
   @@count=0 
   
