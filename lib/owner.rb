@@ -1,11 +1,11 @@
 class Owner
   # attr_accessor :name
   attr_reader :species, :name
+  attr_w
   @@all =[]
   @@count=0 
   
   def initialize(species)
-    @name=name
     @species="human"
     @@all << self
     @@count+=1
