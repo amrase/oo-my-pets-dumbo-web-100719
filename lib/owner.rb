@@ -20,7 +20,7 @@ class Owner
   end  
   
   def self.count
-    @@count
+    @@count.length
   end  
   
   def self.reset_all
